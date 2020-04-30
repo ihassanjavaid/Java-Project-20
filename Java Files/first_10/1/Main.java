@@ -26,7 +26,7 @@ class Main{
 
         // Format to 2 decimal places
         DecimalFormat twoDecimalPlaces = new DecimalFormat("##.00");
-        System.out.println("Average Score: " +twoDecimalPlaces.format(averageScore));
+        System.out.println("Average Score: " + twoDecimalPlaces.format(averageScore));
 
 
     }
