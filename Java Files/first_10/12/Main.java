@@ -17,6 +17,8 @@ class Main {
 
     public static boolean arrayOneTwoThree(int[] array) {
 
+        // Check the pattern
+        // Try/Catch block have been put for a reason to avoid IndexOutOfBoundsException
         try{
             for (int i = 0; i < array.length; i++) {
                 if (array[i] == 1) {

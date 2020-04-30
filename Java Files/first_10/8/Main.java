@@ -21,6 +21,7 @@ class Main {
         else 
             isBirthday = false;
 
+        // Call function
         System.out.println(caughtSpeeding(speed, isBirthday));
     }
 
@@ -35,6 +36,7 @@ class Main {
             return 2;
         }
 
+        // If it's birthday 
         else {
             if (speed <= 65)
                 return 0;

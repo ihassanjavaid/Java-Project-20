@@ -27,6 +27,7 @@ class Main{
             System.exit(0);
         }
 
+        // Parse digits into integer from string
         firstDigit = Integer.parseInt( String.valueOf(Integer.toString(integer).charAt(0)) );
         System.out.println("First digit: "+ firstDigit);
 

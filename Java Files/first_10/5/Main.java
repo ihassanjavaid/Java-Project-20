@@ -10,6 +10,7 @@ class Main {
         System.out.println("Enter number in decimal: ");
         decimal = input.nextInt();
 
+        // Call function
         convertToBinary(decimal);
     }
 

@@ -4,10 +4,13 @@ class Main{
     public static void main(String[] args) {
         // Scanner
         Scanner input = new Scanner(System.in);
+
+        // Declarations
         double num;
         int type;
         boolean imperial;
 
+        // Inputs
         System.out.print("Enter number: ");
         num = input.nextDouble();
 
@@ -21,6 +24,7 @@ class Main{
             imperial = false;
         }
 
+        // Call function
         double finalNum = convert(num, imperial);
         System.out.println("converted number is: " +finalNum);
     }
